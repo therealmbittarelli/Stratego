@@ -1,0 +1,33 @@
+dependencies:
+  '@rush-temp/stratego-client': 'file:projects/stratego-client.tgz'
+  '@rush-temp/stratego-server': 'file:projects/stratego-server.tgz'
+  '@rush-temp/stratego-shared': 'file:projects/stratego-shared.tgz'
+packages:
+  'file:projects/stratego-client.tgz':
+    dev: false
+    name: '@rush-temp/stratego-client'
+    resolution:
+      integrity: sha512-13gNaNhPSK+VFTxKHf9LltwdApIePzYRHCWKzKVvn7ahM1JkQozbuY+3R4MLD9a0gMmnb42P3nL8mE/zZqTwjg==
+      tarball: 'file:projects/stratego-client.tgz'
+    version: 0.0.0
+  'file:projects/stratego-server.tgz':
+    dev: false
+    name: '@rush-temp/stratego-server'
+    resolution:
+      integrity: sha512-YCg7514UUZEo4gwh/A7OUMAuGdkdwrl6KZKEEU577VkDCViXOdYH2ggKxozILJ+Kj2wYXrqFriBlysN9F+xH5w==
+      tarball: 'file:projects/stratego-server.tgz'
+    version: 0.0.0
+  'file:projects/stratego-shared.tgz':
+    dev: false
+    name: '@rush-temp/stratego-shared'
+    resolution:
+      integrity: sha512-uy4gTBNlXNUd0sBwihWhzJ+lCFALr0fRJpiNNRjcYBnS3UQGsFZxStmHRFcEhTVL7636uZUiixxtXFo4sSiPrQ==
+      tarball: 'file:projects/stratego-shared.tgz'
+    version: 0.0.0
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@rush-temp/stratego-client': 'file:./projects/stratego-client.tgz'
+  '@rush-temp/stratego-server': 'file:./projects/stratego-server.tgz'
+  '@rush-temp/stratego-shared': 'file:./projects/stratego-shared.tgz'

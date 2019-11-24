@@ -1,0 +1,6 @@
+{
+  "name": "stratego-server",
+  "scripts": {
+    "hello": "echo 'hello server'"
+  }
+}
