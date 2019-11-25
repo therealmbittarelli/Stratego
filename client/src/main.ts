@@ -1,5 +1,5 @@
 // Make the DIV element draggable:
-dragElement(document.getElementById('mydiv'));
+dragElement(document.getElementById('mygandalf'));
 
 function dragElement(elmnt) {
   let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
