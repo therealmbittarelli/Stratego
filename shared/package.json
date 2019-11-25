@@ -1,6 +1,7 @@
 {
   "name": "stratego-shared",
   "scripts": {
-    "hello": "echo 'hello shared'"
+    "hello": "echo 'hello shared'",
+    "build": ""
   }
 }
