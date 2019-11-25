@@ -16,6 +16,13 @@
       "enableParallelism": true,
       "summary": "say Hello",
       "description": "say howdy"
+    },
+    {
+      "commandKind": "bulk",
+      "name": "start",
+      "enableParallelism": true,
+      "summary": "start the webserver",
+      "description": "start the webserver"
     }
   ],
   "parameters": [
