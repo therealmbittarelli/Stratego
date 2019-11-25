@@ -1,0 +1,39 @@
+#mydiv {
+  position: absolute;
+}
+
+#mydivheader {
+  cursor: grab;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* hobbits */
+
+#myhobbits {
+  position: absolute;
+}
+
+#myhobbitsheader {
+  cursor: grab;
+}
+
+h4 {
+  text-align: center;
+}
+
+/* eowyn */
+
+#myeowyn {
+  position: absolute;
+}
+
+#myeowynheader {
+  cursor: grab;
+}
+
+h4 {
+  text-align: center;
+}
