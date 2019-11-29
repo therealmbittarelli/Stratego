@@ -2,6 +2,13 @@
   "name": "stratego-server",
   "scripts": {
     "hello": "echo 'hello server'",
-    "build": ""
+    "start": "node ./dist/main.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "typescript": "3.7.2"
   }
 }
