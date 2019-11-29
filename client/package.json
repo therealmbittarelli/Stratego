@@ -3,7 +3,7 @@
   "scripts": {
     "hello": "echo 'hello client'",
     "start": "http-server ./dist -p 3333",
-    "build": "cp ./index.html ./dist && webpack --config webpack.config.js"
+    "build": "cp ./index.html ./dist && cp ./main.css ./dist && mkdir -p ./dist/img && cp -R ./img/* ./dist/img && webpack --config webpack.config.js"
   },
   "dependencies": {
     "http-server": "0.11.1"
