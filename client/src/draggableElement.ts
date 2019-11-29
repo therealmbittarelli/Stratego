@@ -25,6 +25,7 @@ export class DraggableElement {
   }
 
   private elementDrag(e: MouseEvent): void {
+    console.log(`dragging: ${this.elementId} top: ${this.element.style.top} left: ${this.element.style.left}`);
     e.preventDefault();
     this.mouseOffsetX = this.mouseStartX - e.clientX;
     this.mouseOffsetY = this.mouseStartY - e.clientY;

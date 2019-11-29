@@ -1,39 +1,13 @@
-#mygandalf {
+.gamepiece {
   position: absolute;
-}
-
-#mygandalfheader {
-  cursor: grab;
-}
-
-h3 {
   text-align: center;
 }
 
-/* hobbits */
+/* background */
 
-#myhobbits {
-  position: absolute;
-}
-
-#myhobbitsheader {
-  cursor: grab;
-}
-
-h4 {
-  text-align: center;
-}
-
-/* eowyn */
-
-#myeowyn {
-  position: absolute;
-}
-
-#myeowynheader {
-  cursor: grab;
-}
-
-h4 {
-  text-align: center;
+body {
+  background-image: url("img/stratego.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  max-height: 600px;
 }
