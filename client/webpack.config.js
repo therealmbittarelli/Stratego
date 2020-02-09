@@ -4,6 +4,7 @@ module.exports = {
   entry: './src/main.ts',
   devtool: 'inline-source-map',
   mode: 'none',
+  target: 'node',
 
   module: {
     rules: [
@@ -20,5 +21,5 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-  }
+  },
 };

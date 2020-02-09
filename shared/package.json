@@ -2,6 +2,7 @@
   "name": "stratego-shared",
   "scripts": {
     "hello": "echo 'hello shared'",
-    "build": ""
+    "build": "",
+    "start": ""
   }
 }

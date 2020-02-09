@@ -2,12 +2,11 @@
   "name": "stratego-client",
   "scripts": {
     "hello": "echo 'hello client'",
-    "start": "http-server ./dist -p 3333",
+    "start": "http-server -c-1 ./dist -p 3333",
     "build": "cp ./index.html ./dist && cp ./main.css ./dist && mkdir -p ./dist/img && cp -R ./img/* ./dist/img && webpack --config webpack.config.js"
   },
-  "dependencies": {
-  },
   "devDependencies": {
+    "@types/node": "12.12.14",
     "http-server": "0.11.1",
     "ts-loader": "6.2.1",
     "ts-node": "8.5.2",
